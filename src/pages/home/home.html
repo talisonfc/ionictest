@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+    <ion-buttons right>
+      <button ion-button (click)="open()">REST</button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label>a:</ion-label>
+      <ion-input [(ngModel)]="a"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>b:</ion-label>
+      <ion-input [(ngModel)]="b"></ion-input>
+    </ion-item>
+  </ion-list>
+  <button ion-button outline full (click)="calc()">teste</button>
+
+  <ion-card *ngIf="result">
+    <ion-card-header>O resultado da operação é: <b>{{result}}</b></ion-card-header>
+  </ion-card>
+</ion-content>

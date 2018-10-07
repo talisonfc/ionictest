@@ -1,2 +1,3 @@
-# ionictest
-Teste automático com Ionic
+# ionicTest
+
+Modulo de teste ionic

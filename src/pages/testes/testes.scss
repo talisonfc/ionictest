@@ -1,0 +1,43 @@
+page-testes {
+    .toolbar-background-md{
+        background: white;
+    }
+
+    ion-header{
+        box-shadow: 0 0;
+    }
+
+    ion-icon{
+        margin-right: 5px;
+    }
+
+    .test{
+        font-size: 0.8em;
+    }
+
+    .method{
+        font-weight: bold;
+    }
+
+    .log{
+        color: #888;
+    }
+    
+    .sucess{
+        color: map-get($colors, primary )
+    }
+    
+    .error{
+        color: map-get($colors, danger )
+    }
+
+    .json{
+        white-space: initial;
+        background: black;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        height: 500px;
+        overflow: auto;
+    }
+}
